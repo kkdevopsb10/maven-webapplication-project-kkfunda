@@ -57,6 +57,13 @@ pipeline
         """
       }
     }
+   stage('airtel-qa')
+    {
+      steps
+      {
+         build job: 'airtel-qa'
+      }
+    }
 
 
 
